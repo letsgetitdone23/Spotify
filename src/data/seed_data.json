@@ -1,0 +1,439 @@
+{
+  "library": [
+    {
+      "track_id": "t001",
+      "title": "Nightfall Static",
+      "artist": "Kōno",
+      "genre": "lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 41,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t002",
+      "title": "Rainlight Loop",
+      "artist": "Studio Palms",
+      "genre": "lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 38,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t003",
+      "title": "Quiet Hours",
+      "artist": "Kōno",
+      "genre": "lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 35,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t004",
+      "title": "Amber Static",
+      "artist": "Studio Palms",
+      "genre": "lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 30,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t005",
+      "title": "Copper Skies",
+      "artist": "Wren Ellery",
+      "genre": "indie folk",
+      "mood_tags": [
+        "warm",
+        "nostalgic"
+      ],
+      "play_count": 6,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t006",
+      "title": "Marigold",
+      "artist": "The Faint Parade",
+      "genre": "indie rock",
+      "mood_tags": [
+        "energetic",
+        "bittersweet"
+      ],
+      "play_count": 4,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t007",
+      "title": "Low Tide",
+      "artist": "Isla Moon",
+      "genre": "dream pop",
+      "mood_tags": [
+        "dreamy",
+        "melancholy"
+      ],
+      "play_count": 5,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t008",
+      "title": "Departures",
+      "artist": "Nordveil",
+      "genre": "post-rock",
+      "mood_tags": [
+        "cinematic",
+        "intense"
+      ],
+      "play_count": 3,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t009",
+      "title": "Salt & Static",
+      "artist": "Wren Ellery",
+      "genre": "indie folk",
+      "mood_tags": [
+        "warm",
+        "reflective"
+      ],
+      "play_count": 7,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t010",
+      "title": "Glasshouse",
+      "artist": "Comet Youth",
+      "genre": "electronic",
+      "mood_tags": [
+        "euphoric",
+        "bright"
+      ],
+      "play_count": 5,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t011",
+      "title": "Half-Light",
+      "artist": "Isla Moon",
+      "genre": "dream pop",
+      "mood_tags": [
+        "dreamy",
+        "soft"
+      ],
+      "play_count": 4,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t012",
+      "title": "Sundial",
+      "artist": "The Faint Parade",
+      "genre": "indie rock",
+      "mood_tags": [
+        "nostalgic",
+        "warm"
+      ],
+      "play_count": 6,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t013",
+      "title": "Pulse Drive",
+      "artist": "Neon Fields",
+      "genre": "electronic",
+      "mood_tags": [
+        "energetic",
+        "driving"
+      ],
+      "play_count": 22,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t014",
+      "title": "Ironclad",
+      "artist": "Neon Fields",
+      "genre": "electronic",
+      "mood_tags": [
+        "energetic",
+        "aggressive"
+      ],
+      "play_count": 19,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t015",
+      "title": "Overdrive",
+      "artist": "Volt Theory",
+      "genre": "electronic",
+      "mood_tags": [
+        "energetic",
+        "driving"
+      ],
+      "play_count": 17,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t016",
+      "title": "Dhuaan",
+      "artist": "Rehaan Vaid",
+      "genre": "hindi lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 33,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t017",
+      "title": "Sukoon",
+      "artist": "Meher Kohli",
+      "genre": "hindi lo-fi",
+      "mood_tags": [
+        "chill",
+        "focus"
+      ],
+      "play_count": 29,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t018",
+      "title": "Sherni",
+      "artist": "Baaghi Sound",
+      "genre": "punjabi hip-hop",
+      "mood_tags": [
+        "energetic",
+        "aggressive"
+      ],
+      "play_count": 20,
+      "pool": "functional_only"
+    },
+    {
+      "track_id": "t019",
+      "title": "Kaanch ke Rishtey",
+      "artist": "Anahita Rao",
+      "genre": "indie hindi",
+      "mood_tags": [
+        "warm",
+        "reflective"
+      ],
+      "play_count": 5,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t020",
+      "title": "Barsaat ke Baad",
+      "artist": "Ishaan Dutt",
+      "genre": "indie hindi",
+      "mood_tags": [
+        "nostalgic",
+        "bittersweet"
+      ],
+      "play_count": 4,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t021",
+      "title": "Raagdesh Reimagined",
+      "artist": "Kavya Menon",
+      "genre": "carnatic fusion",
+      "mood_tags": [
+        "cinematic",
+        "soulful"
+      ],
+      "play_count": 3,
+      "pool": "known_identity"
+    },
+    {
+      "track_id": "t022",
+      "title": "Shehnaai Dreams",
+      "artist": "Anahita Rao",
+      "genre": "ghazal fusion",
+      "mood_tags": [
+        "melancholy",
+        "soulful"
+      ],
+      "play_count": 6,
+      "pool": "known_identity"
+    }
+  ],
+  "discovery_pool": [
+    {
+      "track_id": "d001",
+      "title": "Ivory Bloom",
+      "artist": "Mira Solden",
+      "genre": "indie folk",
+      "mood_tags": [
+        "warm",
+        "hopeful"
+      ]
+    },
+    {
+      "track_id": "d002",
+      "title": "Static Bloom",
+      "artist": "Nordveil",
+      "genre": "post-rock",
+      "mood_tags": [
+        "cinematic",
+        "expansive"
+      ]
+    },
+    {
+      "track_id": "d003",
+      "title": "Faded Neon",
+      "artist": "Comet Youth",
+      "genre": "electronic",
+      "mood_tags": [
+        "euphoric",
+        "nostalgic"
+      ]
+    },
+    {
+      "track_id": "d004",
+      "title": "Hollow Orbit",
+      "artist": "Isla Moon",
+      "genre": "dream pop",
+      "mood_tags": [
+        "ethereal",
+        "soft"
+      ]
+    },
+    {
+      "track_id": "d005",
+      "title": "Tideline",
+      "artist": "The Faint Parade",
+      "genre": "indie rock",
+      "mood_tags": [
+        "energetic",
+        "hopeful"
+      ]
+    },
+    {
+      "track_id": "d006",
+      "title": "Ratnakar",
+      "artist": "Kavya Menon",
+      "genre": "carnatic fusion",
+      "mood_tags": [
+        "soulful",
+        "meditative"
+      ]
+    },
+    {
+      "track_id": "d007",
+      "title": "Bheegi Yaadein",
+      "artist": "Ishaan Dutt",
+      "genre": "indie hindi",
+      "mood_tags": [
+        "nostalgic",
+        "warm"
+      ]
+    },
+    {
+      "track_id": "d008",
+      "title": "Zar-e-Khwab",
+      "artist": "Anahita Rao",
+      "genre": "ghazal fusion",
+      "mood_tags": [
+        "melancholy",
+        "dreamy"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "s01",
+      "label": "3am study session",
+      "tracks_played": [
+        "t001",
+        "t001",
+        "t003",
+        "t001",
+        "t004"
+      ],
+      "skip_rate": 0.04,
+      "repeat_rate": 0.6,
+      "session_length_minutes": 95,
+      "time_of_day": "03:10",
+      "playlist_name": "Deep Focus Lo-Fi",
+      "genre_diversity": "low",
+      "expected_classification": "functional"
+    },
+    {
+      "session_id": "s02",
+      "label": "Saturday afternoon exploring",
+      "tracks_played": [
+        "t006",
+        "t010",
+        "t021",
+        "t005",
+        "t019"
+      ],
+      "skip_rate": 0.35,
+      "repeat_rate": 0.0,
+      "session_length_minutes": 40,
+      "time_of_day": "15:20",
+      "playlist_name": null,
+      "genre_diversity": "high",
+      "expected_classification": "identity"
+    },
+    {
+      "session_id": "s03",
+      "label": "Morning gym session",
+      "tracks_played": [
+        "t013",
+        "t018",
+        "t013",
+        "t015"
+      ],
+      "skip_rate": 0.08,
+      "repeat_rate": 0.5,
+      "session_length_minutes": 50,
+      "time_of_day": "07:00",
+      "playlist_name": "Gym Power Hour",
+      "genre_diversity": "low",
+      "expected_classification": "functional"
+    },
+    {
+      "session_id": "s04",
+      "label": "Late night discovery scroll",
+      "tracks_played": [
+        "t007",
+        "t022",
+        "t012",
+        "t020"
+      ],
+      "skip_rate": 0.28,
+      "repeat_rate": 0.0,
+      "session_length_minutes": 25,
+      "time_of_day": "23:40",
+      "playlist_name": null,
+      "genre_diversity": "high",
+      "expected_classification": "identity"
+    },
+    {
+      "session_id": "s05",
+      "label": "Borderline: quiet evening, single playlist",
+      "tracks_played": [
+        "t002",
+        "t017",
+        "t002",
+        "t009"
+      ],
+      "skip_rate": 0.15,
+      "repeat_rate": 0.25,
+      "session_length_minutes": 60,
+      "time_of_day": "20:15",
+      "playlist_name": "Evening Wind Down",
+      "genre_diversity": "medium",
+      "expected_classification": "borderline (demo confidence ~0.55–0.65)"
+    }
+  ]
+}
