@@ -155,6 +155,7 @@ export default function App() {
   const [showIdentityToast, setShowIdentityToast] = useState(false);
   const [currentSessionClassification, setCurrentSessionClassification] = useState(null);
   const [showDiscoveredArtistsModal, setShowDiscoveredArtistsModal] = useState(false);
+  const [showWelcomeModal, setShowWelcomeModal] = useState(true); // Welcome Modal State
 
   // Insights History
   // Pre-seed history with realistic runs so dashboard starts populated
@@ -1544,6 +1545,43 @@ export default function App() {
           >
             <Search size={20} />
             <span>Search</span>
+          </div>
+        </div>
+      )}
+
+      {/* Welcome Modal Overlay */}
+      {showWelcomeModal && (
+        <div className="tour-overlay" style={{
+          position: "fixed", top: 0, left: 0, right: 0, bottom: 0, 
+          backgroundColor: "rgba(0,0,0,0.85)", zIndex: 9999,
+          display: "flex", alignItems: "center", justifyContent: "center", padding: "20px"
+        }}>
+          <div style={{
+            backgroundColor: "#282828", borderRadius: "12px", padding: "24px",
+            maxWidth: "400px", width: "100%", boxShadow: "0 10px 30px rgba(0,0,0,0.5)",
+            animation: "fadeIn 0.3s ease-out"
+          }}>
+            <h2 style={{ fontSize: "24px", fontWeight: "800", marginBottom: "16px", color: "#fff", display: "flex", alignItems: "center", gap: "8px" }}>
+              <Sparkles size={24} color="var(--spotify-green)" /> Welcome to TrueTune
+            </h2>
+            <p style={{ fontSize: "14px", color: "var(--text-light)", lineHeight: "1.5", marginBottom: "16px" }}>
+              This is a functional MVP demonstrating how Spotify can protect a user's taste profile from functional listening sessions.
+            </p>
+            <div style={{ backgroundColor: "rgba(0,0,0,0.2)", borderRadius: "8px", padding: "16px", marginBottom: "20px" }}>
+              <h3 style={{ fontSize: "12px", fontWeight: "700", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: "12px", letterSpacing: "1px" }}>How to test the MVP:</h3>
+              <ol style={{ paddingLeft: "16px", margin: 0, color: "#fff", fontSize: "13px", lineHeight: "1.6" }}>
+                <li style={{ paddingBottom: "8px" }}>Tap <strong>Lo-Fi Lullabies</strong> to simulate a background focus session.</li>
+                <li style={{ paddingBottom: "8px" }}>Watch the AI classify the session and trigger the <strong>Shield</strong>.</li>
+                <li>Tap <strong>Got it</strong> to see the <strong>Reveal</strong> recommendation pop up.</li>
+              </ol>
+            </div>
+            <button 
+              className="btn-primary" 
+              style={{ width: "100%", padding: "14px", borderRadius: "25px", fontWeight: "700", fontSize: "15px" }}
+              onClick={() => setShowWelcomeModal(false)}
+            >
+              Start Exploring
+            </button>
           </div>
         </div>
       )}
