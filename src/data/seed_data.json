@@ -10,7 +10,8 @@
         "focus"
       ],
       "play_count": 41,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t001art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t002",
@@ -22,7 +23,8 @@
         "focus"
       ],
       "play_count": 38,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t002art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t003",
@@ -34,7 +36,8 @@
         "focus"
       ],
       "play_count": 35,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t003art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t004",
@@ -46,7 +49,8 @@
         "focus"
       ],
       "play_count": 30,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t004art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t005",
@@ -58,7 +62,8 @@
         "nostalgic"
       ],
       "play_count": 6,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t005art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t006",
@@ -70,7 +75,8 @@
         "bittersweet"
       ],
       "play_count": 4,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t006art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t007",
@@ -82,7 +88,8 @@
         "melancholy"
       ],
       "play_count": 5,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t007art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t008",
@@ -94,7 +101,8 @@
         "intense"
       ],
       "play_count": 3,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t008art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t009",
@@ -106,7 +114,8 @@
         "reflective"
       ],
       "play_count": 7,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t009art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t010",
@@ -118,7 +127,8 @@
         "bright"
       ],
       "play_count": 5,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t010art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t011",
@@ -130,7 +140,8 @@
         "soft"
       ],
       "play_count": 4,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t011art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t012",
@@ -142,7 +153,8 @@
         "warm"
       ],
       "play_count": 6,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t012art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t013",
@@ -154,7 +166,8 @@
         "driving"
       ],
       "play_count": 22,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t013art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t014",
@@ -166,7 +179,8 @@
         "aggressive"
       ],
       "play_count": 19,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t014art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t015",
@@ -178,7 +192,8 @@
         "driving"
       ],
       "play_count": 17,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t015art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t016",
@@ -190,7 +205,8 @@
         "focus"
       ],
       "play_count": 33,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t016art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t017",
@@ -202,7 +218,8 @@
         "focus"
       ],
       "play_count": 29,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t017art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t018",
@@ -214,7 +231,8 @@
         "aggressive"
       ],
       "play_count": 20,
-      "pool": "functional_only"
+      "pool": "functional_only",
+      "image_url": "https://picsum.photos/seed/t018art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t019",
@@ -226,7 +244,8 @@
         "reflective"
       ],
       "play_count": 5,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t019art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t020",
@@ -238,7 +257,8 @@
         "bittersweet"
       ],
       "play_count": 4,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t020art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t021",
@@ -250,7 +270,8 @@
         "soulful"
       ],
       "play_count": 3,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t021art/400/400?grayscale&blur=2"
     },
     {
       "track_id": "t022",
@@ -262,7 +283,8 @@
         "soulful"
       ],
       "play_count": 6,
-      "pool": "known_identity"
+      "pool": "known_identity",
+      "image_url": "https://picsum.photos/seed/t022art/400/400?grayscale&blur=2"
     }
   ],
   "discovery_pool": [
@@ -274,7 +296,8 @@
       "mood_tags": [
         "warm",
         "hopeful"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d001art/400/400"
     },
     {
       "track_id": "d002",
@@ -284,7 +307,8 @@
       "mood_tags": [
         "cinematic",
         "expansive"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d002art/400/400"
     },
     {
       "track_id": "d003",
@@ -294,7 +318,8 @@
       "mood_tags": [
         "euphoric",
         "nostalgic"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d003art/400/400"
     },
     {
       "track_id": "d004",
@@ -304,7 +329,8 @@
       "mood_tags": [
         "ethereal",
         "soft"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d004art/400/400"
     },
     {
       "track_id": "d005",
@@ -314,7 +340,8 @@
       "mood_tags": [
         "energetic",
         "hopeful"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d005art/400/400"
     },
     {
       "track_id": "d006",
@@ -324,7 +351,8 @@
       "mood_tags": [
         "soulful",
         "meditative"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d006art/400/400"
     },
     {
       "track_id": "d007",
@@ -334,7 +362,8 @@
       "mood_tags": [
         "nostalgic",
         "warm"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d007art/400/400"
     },
     {
       "track_id": "d008",
@@ -344,7 +373,8 @@
       "mood_tags": [
         "melancholy",
         "dreamy"
-      ]
+      ],
+      "image_url": "https://picsum.photos/seed/d008art/400/400"
     }
   ],
   "sessions": [
@@ -364,7 +394,8 @@
       "time_of_day": "03:10",
       "playlist_name": "Deep Focus Lo-Fi",
       "genre_diversity": "low",
-      "expected_classification": "functional"
+      "expected_classification": "functional",
+      "image_url": "https://picsum.photos/seed/s01session/400/400"
     },
     {
       "session_id": "s02",
@@ -377,12 +408,13 @@
         "t019"
       ],
       "skip_rate": 0.35,
-      "repeat_rate": 0.0,
+      "repeat_rate": 0,
       "session_length_minutes": 40,
       "time_of_day": "15:20",
       "playlist_name": null,
       "genre_diversity": "high",
-      "expected_classification": "identity"
+      "expected_classification": "identity",
+      "image_url": "https://picsum.photos/seed/s02session/400/400"
     },
     {
       "session_id": "s03",
@@ -399,7 +431,8 @@
       "time_of_day": "07:00",
       "playlist_name": "Gym Power Hour",
       "genre_diversity": "low",
-      "expected_classification": "functional"
+      "expected_classification": "functional",
+      "image_url": "https://picsum.photos/seed/s03session/400/400"
     },
     {
       "session_id": "s04",
@@ -411,12 +444,13 @@
         "t020"
       ],
       "skip_rate": 0.28,
-      "repeat_rate": 0.0,
+      "repeat_rate": 0,
       "session_length_minutes": 25,
       "time_of_day": "23:40",
       "playlist_name": null,
       "genre_diversity": "high",
-      "expected_classification": "identity"
+      "expected_classification": "identity",
+      "image_url": "https://picsum.photos/seed/s04session/400/400"
     },
     {
       "session_id": "s05",
@@ -433,7 +467,8 @@
       "time_of_day": "20:15",
       "playlist_name": "Evening Wind Down",
       "genre_diversity": "medium",
-      "expected_classification": "borderline (demo confidence ~0.55–0.65)"
+      "expected_classification": "borderline (demo confidence ~0.55–0.65)",
+      "image_url": "https://picsum.photos/seed/s05session/400/400"
     }
   ]
 }

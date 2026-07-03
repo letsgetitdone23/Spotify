@@ -600,27 +600,21 @@ export default function App() {
           <div className="carousel-container">
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <div className="card-img-gradient" style={{ background: getGradientForSeed("Lo-Fi Lullabies"), color: "#ffffff" }}>
-                  <Music size={40} />
-                </div>
+                <img src="https://picsum.photos/seed/LoFiLullabies/400/400?grayscale&blur=2" alt="Lo-Fi Lullabies" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Lo-Fi Lullabies</span>
               <span className="card-subtitle">Relaxing beats for focus and study.</span>
             </div>
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <div className="card-img-gradient" style={{ background: getGradientForSeed("Gym Hype Mix"), color: "#ffffff" }}>
-                  <Activity size={40} />
-                </div>
+                <img src="https://picsum.photos/seed/GymHypeMix/400/400?grayscale&blur=2" alt="Gym Hype Mix" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Gym Hype Mix</span>
               <span className="card-subtitle">Energetic electronic and hip-hop.</span>
             </div>
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <div className="card-img-gradient" style={{ background: getGradientForSeed("Indian Fusion Radio"), color: "#ffffff" }}>
-                  <Sparkles size={40} />
-                </div>
+                <img src="https://picsum.photos/seed/IndianFusionRadio/400/400?grayscale&blur=2" alt="Indian Fusion Radio" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Indian Fusion Radio</span>
               <span className="card-subtitle">Carnatic, Ghazal & Indie Hindi.</span>
@@ -636,9 +630,7 @@ export default function App() {
             {Object.entries(playlistOverrides).map(([name, data]) => (
               <div key={name} className="carousel-card" style={{ position: "relative" }} onClick={() => startSimulation(name)}>
                 <div className="card-img-wrapper" style={{ position: "relative" }}>
-                  <div className="card-img-gradient" style={{ background: getGradientForSeed(name), color: "#ffffff" }}>
-                    <Music size={32} />
-                  </div>
+                  <img src={`https://picsum.photos/seed/${name.replace(/\\s+/g, '')}session/400/400?grayscale&blur=2`} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   
                   {/* Badge overlay on the card art */}
                   {data.last_classification && (
@@ -696,9 +688,13 @@ export default function App() {
             {seedData.sessions.map((s) => (
               <div key={s.session_id} className="carousel-card" onClick={() => startSimulation(s)}>
                 <div className="card-img-wrapper">
-                  <div className="card-img-gradient" style={{ background: getGradientForSeed(s.session_id), color: "#ffffff" }}>
-                    {renderSessionIcon(s.session_id)}
-                  </div>
+                  {s.image_url ? (
+                    <img src={s.image_url} alt={s.label} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : (
+                    <div className="card-img-gradient" style={{ background: getGradientForSeed(s.session_id), color: "#ffffff" }}>
+                      {renderSessionIcon(s.session_id)}
+                    </div>
+                  )}
                 </div>
                 <span className="card-title">{s.label}</span>
                 <span className="card-subtitle">
@@ -792,20 +788,33 @@ export default function App() {
           </div>
 
           <div className="nowplaying-art-wrapper">
-            <div 
-              className="nowplaying-art"
-              style={{
-                background: getGradientForSeed(selectedSession.tracks_played[currentTrackIndex])
-              }}
-            >
-              <Music size={64} color="rgba(255,255,255,0.6)" />
-              <div style={{ position: "absolute", bottom: "16px", left: "16px", right: "16px", display: "flex", gap: "8px", alignItems: "center" }}>
-                <Activity size={12} color="var(--spotify-green)" />
-                <span style={{ fontSize: "10px", color: "var(--text-light)", fontWeight: "600" }}>
-                  TRACK {currentTrackIndex + 1} OF {selectedSession.tracks_played.length}
-                </span>
-              </div>
-            </div>
+            {(() => {
+              const trackId = selectedSession.tracks_played[currentTrackIndex];
+              const track = getTrackDetails(trackId);
+              return track.image_url ? (
+                <div className="nowplaying-art" style={{ background: `url(${track.image_url}) center/cover no-repeat` }}>
+                  <div style={{ position: "absolute", bottom: "16px", left: "16px", right: "16px", display: "flex", gap: "8px", alignItems: "center" }}>
+                    <Activity size={12} color="var(--spotify-green)" />
+                    <span style={{ fontSize: "10px", color: "var(--text-light)", fontWeight: "600", textShadow: "0 1px 2px rgba(0,0,0,0.8)" }}>
+                      TRACK {currentTrackIndex + 1} OF {selectedSession.tracks_played.length}
+                    </span>
+                  </div>
+                </div>
+              ) : (
+                <div 
+                  className="nowplaying-art"
+                  style={{ background: getGradientForSeed(trackId) }}
+                >
+                  <Music size={64} color="rgba(255,255,255,0.6)" />
+                  <div style={{ position: "absolute", bottom: "16px", left: "16px", right: "16px", display: "flex", gap: "8px", alignItems: "center" }}>
+                    <Activity size={12} color="var(--spotify-green)" />
+                    <span style={{ fontSize: "10px", color: "var(--text-light)", fontWeight: "600" }}>
+                      TRACK {currentTrackIndex + 1} OF {selectedSession.tracks_played.length}
+                    </span>
+                  </div>
+                </div>
+              );
+            })()}
           </div>
 
           {/* Track details */}
@@ -955,9 +964,13 @@ export default function App() {
 
             {/* Recommendation Track Item */}
             <div className="recommendation-card">
-              <div className="rec-art" style={{ background: getGradientForSeed(revealTrack.track_id) }}>
-                <Music size={24} color="#ffffff" />
-              </div>
+              {revealTrack.image_url ? (
+                <div className="rec-art" style={{ background: `url(${revealTrack.image_url}) center/cover no-repeat` }} />
+              ) : (
+                <div className="rec-art" style={{ background: getGradientForSeed(revealTrack.track_id) }}>
+                  <Music size={24} color="#ffffff" />
+                </div>
+              )}
               <div className="rec-details">
                 <div className="rec-title">{revealTrack.title}</div>
                 <div className="rec-artist">{revealTrack.artist}</div>
