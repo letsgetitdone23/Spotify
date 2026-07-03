@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Spotify TrueTune (MVP) 🎧
 
-## Getting Started
+**TrueTune protects your real taste from your temporary context — and proves it, instantly.**
 
-First, run the development server:
+This is a functional MVP prototype built for the **Spotify PM Graduation Project**, specifically targeting the "Taste-Evolving Explorer" user segment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 The Problem
+Spotify's recommendation model currently treats every listening event as an equal signal for your taste identity. It makes no distinction between **functional listening** (e.g., studying, working out, sleeping) and **identity listening** (intentional, emotionally invested music exploration). 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Because of this, transient contextual phases (like a lo-fi study playlist binge) can easily corrupt a user's taste profile, leading to repetitive recommendations and stalled discovery of genuinely new music.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛡️ How TrueTune Works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+TrueTune solves this with two coupled features that happen seamlessly in real-time:
 
-## Learn More
+1. **Shield (Classification)**: Using implicit behavioral signals (skip rate, repeat rate, session length), it detects functional listening sessions without manual tagging, and excludes them from corrupting your taste profile.
+2. **Reveal (Discovery)**: Immediately after a session is protected, it surfaces a new track recommendation drawn from your true, uncorrupted taste — so protection and discovery happen in the same breath.
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Tech Stack
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Styling**: CSS Modules
+- **Icons**: Lucide React
+- **Hosting**: Vercel ready
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Getting Started Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Install the dependencies:
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to interact with the TrueTune MVP.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📊 Core MVP Features
+- **Session Simulator**: Experience how TrueTune classifies different listening contexts.
+- **Shield UI Moment**: Transparently shows why a session was classified as functional and excluded from taste updates.
+- **Reveal UI Moment**: Discover new tracks curated from an uncorrupted discovery pool.
+- **Your Taste Journey (Dashboard)**: Track user-centric metrics like "Functional sessions protected" and "New artists discovered".
