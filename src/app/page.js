@@ -600,21 +600,21 @@ export default function App() {
           <div className="carousel-container">
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <img src="https://picsum.photos/seed/LoFiLullabies/400/400?grayscale&blur=2" alt="Lo-Fi Lullabies" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="https://picsum.photos/seed/LoFiLullabies/400/400" alt="Lo-Fi Lullabies" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Lo-Fi Lullabies</span>
               <span className="card-subtitle">Relaxing beats for focus and study.</span>
             </div>
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <img src="https://picsum.photos/seed/GymHypeMix/400/400?grayscale&blur=2" alt="Gym Hype Mix" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="https://picsum.photos/seed/GymHypeMix/400/400" alt="Gym Hype Mix" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Gym Hype Mix</span>
               <span className="card-subtitle">Energetic electronic and hip-hop.</span>
             </div>
             <div className="carousel-card" onClick={() => setCurrentView("simulate")}>
               <div className="card-img-wrapper">
-                <img src="https://picsum.photos/seed/IndianFusionRadio/400/400?grayscale&blur=2" alt="Indian Fusion Radio" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="https://picsum.photos/seed/IndianFusionRadio/400/400" alt="Indian Fusion Radio" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span className="card-title">Indian Fusion Radio</span>
               <span className="card-subtitle">Carnatic, Ghazal & Indie Hindi.</span>
@@ -630,7 +630,7 @@ export default function App() {
             {Object.entries(playlistOverrides).map(([name, data]) => (
               <div key={name} className="carousel-card" style={{ position: "relative" }} onClick={() => startSimulation(name)}>
                 <div className="card-img-wrapper" style={{ position: "relative" }}>
-                  <img src={`https://picsum.photos/seed/${name.replace(/\\s+/g, '')}session/400/400?grayscale&blur=2`} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src={`https://picsum.photos/seed/${name.replace(/\s+/g, '')}session/400/400`} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                   
                   {/* Badge overlay on the card art */}
                   {data.last_classification && (
