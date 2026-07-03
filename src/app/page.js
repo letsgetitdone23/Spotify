@@ -1572,7 +1572,8 @@ export default function App() {
               <ol style={{ paddingLeft: "16px", margin: 0, color: "#fff", fontSize: "13px", lineHeight: "1.6" }}>
                 <li style={{ paddingBottom: "8px" }}>Tap <strong>Lo-Fi Lullabies</strong> to simulate a background focus session.</li>
                 <li style={{ paddingBottom: "8px" }}>Watch the AI classify the session and trigger the <strong>Shield</strong>.</li>
-                <li>Tap <strong>Got it</strong> to see the <strong>Reveal</strong> recommendation pop up.</li>
+                <li style={{ paddingBottom: "8px" }}>Tap <strong>Got it</strong> to see the <strong>Reveal</strong> recommendation pop up and discover new songs.</li>
+                <li><strong>Save</strong> the track, then check the <strong>Taste Journey</strong> tab to see your metrics update!</li>
               </ol>
             </div>
             <button 
