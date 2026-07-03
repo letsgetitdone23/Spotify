@@ -1565,15 +1565,15 @@ export default function App() {
               <Sparkles size={24} color="var(--spotify-green)" /> Welcome to TrueTune
             </h2>
             <p style={{ fontSize: "14px", color: "var(--text-light)", lineHeight: "1.5", marginBottom: "16px" }}>
-              This is a functional MVP demonstrating how Spotify can protect a user's taste profile from functional listening sessions.
+              This is a functional MVP demonstrating how Spotify can protect a user's taste profile from functional listening sessions and also discover new songs.
             </p>
             <div style={{ backgroundColor: "rgba(0,0,0,0.2)", borderRadius: "8px", padding: "16px", marginBottom: "20px" }}>
               <h3 style={{ fontSize: "12px", fontWeight: "700", textTransform: "uppercase", color: "var(--text-muted)", marginBottom: "12px", letterSpacing: "1px" }}>How to test the MVP:</h3>
               <ol style={{ paddingLeft: "16px", margin: 0, color: "#fff", fontSize: "13px", lineHeight: "1.6" }}>
-                <li style={{ paddingBottom: "8px" }}>Tap <strong>Lo-Fi Lullabies</strong> to simulate a background focus session.</li>
+                <li style={{ paddingBottom: "8px" }}>Tap <strong>Lo-Fi Lullabies</strong> / any playlist to simulate a session.</li>
                 <li style={{ paddingBottom: "8px" }}>Watch the AI classify the session and trigger the <strong>Shield</strong>.</li>
                 <li style={{ paddingBottom: "8px" }}>Tap <strong>Got it</strong> to see the <strong>Reveal</strong> recommendation pop up and discover new songs.</li>
-                <li><strong>Save</strong> the track, then check the <strong>Taste Journey</strong> tab to see your metrics update!</li>
+                <li><strong>Save</strong> the track, then check the <strong>Taste Journey</strong> tab to see your taste journey.</li>
               </ol>
             </div>
             <button 
