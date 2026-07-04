@@ -89,22 +89,23 @@ body {
   transform-origin: center;
 }
 
-@media (max-height: 900px) {
+/* Scale down the desktop phone frame only — NOT on real mobile devices */
+@media (min-width: 769px) and (max-height: 900px) {
   .phone-container {
     transform: scale(0.9);
   }
 }
-@media (max-height: 800px) {
+@media (min-width: 769px) and (max-height: 800px) {
   .phone-container {
     transform: scale(0.8);
   }
 }
-@media (max-height: 720px) {
+@media (min-width: 769px) and (max-height: 720px) {
   .phone-container {
     transform: scale(0.7);
   }
 }
-@media (max-height: 620px) {
+@media (min-width: 769px) and (max-height: 620px) {
   .phone-container {
     transform: scale(0.6);
   }
@@ -1227,8 +1228,8 @@ body {
   }
 }
 
-/* Mobile responsive override */
-@media (max-width: 500px) {
+/* Mobile responsive override — full screen on any real phone/tablet */
+@media (max-width: 768px) {
   body {
     background-color: var(--bg-black);
   }
@@ -1238,10 +1239,13 @@ body {
   }
   .phone-container {
     width: 100vw;
-    height: 100vh;
+    /* dvh accounts for browser address bar on mobile */
+    height: 100dvh;
     border-radius: 0;
     box-shadow: none;
     border: none;
+    /* Cancel any desktop scale transforms */
+    transform: none !important;
   }
   .phone-notch {
     display: none;
